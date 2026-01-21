@@ -47,7 +47,7 @@ Libraries Used:
 
 🚀 Conclusion
 
-This project demonstrates a full cycle of data analysis. I proved that regardless of the tool—be it a spreadsheet, a database, or a programming language.
+This project demonstrates a full cycle of data analysis. I proved that regardless of the tool,be it a spreadsheet, a database, or a programming language.
 I can extract valuable insights and communicate them effectively in English, meeting international market standards.
 
 Tools: Excel, SQL (SQLite), DBeaver, Python (Pandas/Matplotlib), VS Code.
