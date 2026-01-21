@@ -1,22 +1,46 @@
 # Elden Ring Weapon Efficiency Analysis ⚔️
 
-## Project Overview
-This project analyzes the efficiency of starter weapons in Elden Ring, focusing on the "Damage-to-Weight" ratio. The goal is to identify which combat builds (Strength vs. Dexterity) offer the best performance for early-game players.
+## 📌 Project Overview
+This project analyzes the efficiency of starter weapons in Elden Ring, focusing on the **Damage-to-Weight ratio**. The goal is to identify which combat builds (Strength vs. Dexterity) offer the best performance for early-game players using three different professional approaches: Excel, SQL, and Python.
 
-## Visual Analysis
+---
 
-![Elden Ring Analysis Chart](Weapon_graphic.png)
+## 📊 Phase 1: Excel Analysis (Business Intelligence)
+In the first phase, I used Excel to clean the data and create an initial dashboard. This demonstrates my ability to generate quick business insights and clear visualizations.
 
-## Skills Demonstrated
-* **Data Cleaning & Manipulation:** Handled decimal formatting and calculated new metrics in Excel.
-* **SQL Querying:** Used SQLite to perform aggregations (`GROUP BY`, `AVG`) and sorting.
-* **Data Visualization:** Created an analytical dashboard to present insights.
+### Key Insights:
+* **Reduvia** was identified as the most weight-efficient weapon.
+* Used **Pivot Tables** to calculate the average efficiency per attribute.
 
-## Key Insights
-* **Dexterity Builds** showed a significantly higher average efficiency (**26.25**) compared to **Strength Builds** (**17.96**).
-* The **Reduvia** dagger was identified as the most efficient weapon in the sample.
+<p align="center">
+  <img src="Weapon_graphic.png" width="600" title="Excel Analysis">
+</p>
 
-## How to Run the Analysis
-1. Check the `analysis_queries.sql` file for the SQL logic.
-2. View `Elden_Ring_Analysis.xlsx` for the interactive charts.
+---
 
+## 🗄️ Phase 2: SQL Implementation (Data Engineering)
+To show scalability, I migrated the dataset to a **SQLite** database using **DBeaver**. I wrote queries to perform the same calculations programmatically.
+
+### Skills Demonstrated:
+* Data Modeling (DDL): `CREATE TABLE`
+* Data Manipulation (DML): `INSERT INTO`
+* Advanced Querying: `GROUP BY`, `AVG`, and `ORDER BY`
+
+sql
+-- Query to calculate average efficiency by attribute
+SELECT 
+    atributo_principal,
+    AVG(dano_base / peso) AS media_eficiencia
+FROM armas
+GROUP BY atributo_principal;
+
+## 🐍 Phase 3: Python Automation (Data Science)
+
+Finally, I developed a Python script using the Pandas library. This approach allows the analysis to be automated and scaled for thousands of weapons or different games with a single click.
+Libraries Used:
+
+    Pandas: For data manipulation and DataFrame structures.
+
+    Matplotlib: To generate the automated bar chart.
+
+<p align="center"> <img src="grafico_python.png" width="600" title="Python Analysis"> </p>
