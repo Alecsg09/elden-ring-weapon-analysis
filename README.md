@@ -44,3 +44,11 @@ Libraries Used:
     Matplotlib: To generate the automated bar chart.
 
 <p align="center"> <img src="grafico_python.png" width="600" title="Python Analysis"> </p>
+
+🚀 Conclusion
+
+This project demonstrates a full cycle of data analysis. I proved that regardless of the tool—be it a spreadsheet, a database, or a programming language—I can extract valuable insights and communicate them effectively in English, meeting international market standards.
+
+Tools: Excel, SQL (SQLite), DBeaver, Python (Pandas/Matplotlib), VS Code.
+
+## Author: Alecsander Gomes
