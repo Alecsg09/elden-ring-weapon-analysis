@@ -15,3 +15,5 @@ This project analyzes the efficiency of starter weapons in Elden Ring, focusing 
 ## How to Run the Analysis
 1. Check the `analysis_queries.sql` file for the SQL logic.
 2. View `Elden_Ring_Analysis.xlsx` for the interactive charts.
+
+![Elden Ring Analysis Chart](Weapon_Graphic.png)
