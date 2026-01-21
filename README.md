@@ -4,7 +4,8 @@
 This project analyzes the efficiency of starter weapons in Elden Ring, focusing on the "Damage-to-Weight" ratio. The goal is to identify which combat builds (Strength vs. Dexterity) offer the best performance for early-game players.
 
 ##Visual Analysis
-*![Elden Ring Analysis Chart](Weapon_graphic.png)
+
+![Elden Ring Analysis Chart](Weapon_graphic.png)
 
 ## Skills Demonstrated
 * **Data Cleaning & Manipulation:** Handled decimal formatting and calculated new metrics in Excel.
